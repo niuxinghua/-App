@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9681AA6A676CC7EA3A250E22 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 755E947C8B2FCDA0F895DB5B /* libPods.a */; };
+		E00629161C586F9D007C8C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00629151C586F9D007C8C5F /* main.m */; };
+		E00629191C586F9D007C8C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00629181C586F9D007C8C5F /* AppDelegate.m */; };
+		E00629211C586F9D007C8C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00629201C586F9D007C8C5F /* Assets.xcassets */; };
+		E006292F1C586F9D007C8C5F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E006292E1C586F9D007C8C5F /* ____Tests.m */; };
+		E006293A1C586F9D007C8C5F /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00629391C586F9D007C8C5F /* ____UITests.m */; };
+		E006294A1C5871EE007C8C5F /* HJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00629491C5871EE007C8C5F /* HJRootViewController.m */; };
+		E0203CC81C59D50F00BB2FD8 /* CWStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0203CC71C59D50F00BB2FD8 /* CWStarRateView.m */; };
+		E04841141C5E5656008BDEFD /* HJMasterMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04841131C5E5656008BDEFD /* HJMasterMarkViewController.m */; };
+		E048411B1C5E574E008BDEFD /* PNLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04841181C5E574E008BDEFD /* PNLineChartView.m */; };
+		E048411C1C5E574E008BDEFD /* PNPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = E048411A1C5E574E008BDEFD /* PNPlot.m */; };
+		E048411F1C5E57A6008BDEFD /* HJChartCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E048411E1C5E57A6008BDEFD /* HJChartCollectionViewCell.m */; };
+		E0705CD31C58952100815217 /* HJWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0705CD21C58952100815217 /* HJWeekViewController.m */; };
+		E0705CD71C589B3F00815217 /* HJWeekTopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0705CD61C589B3F00815217 /* HJWeekTopCollectionViewCell.m */; };
+		E071B25F1C59B74C007125A3 /* HJWorkMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E071B25E1C59B74C007125A3 /* HJWorkMarkViewController.m */; };
+		E099A68A1C58C0BE00A632F1 /* HJWeekVerticalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E099A6891C58C0BE00A632F1 /* HJWeekVerticalCollectionViewCell.m */; };
+		E099A68D1C58C83A00A632F1 /* HJWeekContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E099A68C1C58C83A00A632F1 /* HJWeekContentCollectionViewCell.m */; };
+		E0BAB1561C59013500A41314 /* HJDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAB1551C59013500A41314 /* HJDayViewController.m */; };
+		E0C9A64C1C59EBA8003039EA /* HJStudyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9A64B1C59EBA8003039EA /* HJStudyInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E006292B1C586F9D007C8C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00629091C586F9D007C8C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00629101C586F9D007C8C5F;
+			remoteInfo = "管练教师";
+		};
+		E00629361C586F9D007C8C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00629091C586F9D007C8C5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00629101C586F9D007C8C5F;
+			remoteInfo = "管练教师";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		755E947C8B2FCDA0F895DB5B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEAFD373FC13F3ABF3AE5C5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C456F72D5BAFE1316FD0609E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E00629111C586F9D007C8C5F /* 管练教师.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "管练教师.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00629151C586F9D007C8C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E00629171C586F9D007C8C5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E00629181C586F9D007C8C5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E00629201C586F9D007C8C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00629251C586F9D007C8C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E006292A1C586F9D007C8C5F /* 管练教师Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "管练教师Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E006292E1C586F9D007C8C5F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		E00629301C586F9D007C8C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00629351C586F9D007C8C5F /* 管练教师UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "管练教师UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00629391C586F9D007C8C5F /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		E006293B1C586F9D007C8C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00629481C5871EE007C8C5F /* HJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRootViewController.h; sourceTree = "<group>"; };
+		E00629491C5871EE007C8C5F /* HJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRootViewController.m; sourceTree = "<group>"; };
+		E0203CC61C59D50F00BB2FD8 /* CWStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStarRateView.h; sourceTree = "<group>"; };
+		E0203CC71C59D50F00BB2FD8 /* CWStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStarRateView.m; sourceTree = "<group>"; };
+		E04841121C5E5656008BDEFD /* HJMasterMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMasterMarkViewController.h; sourceTree = "<group>"; };
+		E04841131C5E5656008BDEFD /* HJMasterMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMasterMarkViewController.m; sourceTree = "<group>"; };
+		E04841171C5E574E008BDEFD /* PNLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartView.h; sourceTree = "<group>"; };
+		E04841181C5E574E008BDEFD /* PNLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartView.m; sourceTree = "<group>"; };
+		E04841191C5E574E008BDEFD /* PNPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPlot.h; sourceTree = "<group>"; };
+		E048411A1C5E574E008BDEFD /* PNPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPlot.m; sourceTree = "<group>"; };
+		E048411D1C5E57A6008BDEFD /* HJChartCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJChartCollectionViewCell.h; sourceTree = "<group>"; };
+		E048411E1C5E57A6008BDEFD /* HJChartCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJChartCollectionViewCell.m; sourceTree = "<group>"; };
+		E0705CD11C58952100815217 /* HJWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWeekViewController.h; sourceTree = "<group>"; };
+		E0705CD21C58952100815217 /* HJWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWeekViewController.m; sourceTree = "<group>"; };
+		E0705CD51C589B3F00815217 /* HJWeekTopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWeekTopCollectionViewCell.h; sourceTree = "<group>"; };
+		E0705CD61C589B3F00815217 /* HJWeekTopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWeekTopCollectionViewCell.m; sourceTree = "<group>"; };
+		E0705CD81C589E2600815217 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E071B25D1C59B74C007125A3 /* HJWorkMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWorkMarkViewController.h; sourceTree = "<group>"; };
+		E071B25E1C59B74C007125A3 /* HJWorkMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWorkMarkViewController.m; sourceTree = "<group>"; };
+		E099A6881C58C0BE00A632F1 /* HJWeekVerticalCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWeekVerticalCollectionViewCell.h; sourceTree = "<group>"; };
+		E099A6891C58C0BE00A632F1 /* HJWeekVerticalCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWeekVerticalCollectionViewCell.m; sourceTree = "<group>"; };
+		E099A68B1C58C83A00A632F1 /* HJWeekContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWeekContentCollectionViewCell.h; sourceTree = "<group>"; };
+		E099A68C1C58C83A00A632F1 /* HJWeekContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWeekContentCollectionViewCell.m; sourceTree = "<group>"; };
+		E0BAB1541C59013500A41314 /* HJDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDayViewController.h; sourceTree = "<group>"; };
+		E0BAB1551C59013500A41314 /* HJDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDayViewController.m; sourceTree = "<group>"; };
+		E0C9A64A1C59EBA8003039EA /* HJStudyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJStudyInfoViewController.h; sourceTree = "<group>"; };
+		E0C9A64B1C59EBA8003039EA /* HJStudyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJStudyInfoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E006290E1C586F9D007C8C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9681AA6A676CC7EA3A250E22 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00629271C586F9D007C8C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00629321C586F9D007C8C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18039CD8627DAF59F241067B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAFD373FC13F3ABF3AE5C5 /* Pods.debug.xcconfig */,
+				C456F72D5BAFE1316FD0609E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C475221052E1345A50A77E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755E947C8B2FCDA0F895DB5B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E00629081C586F9D007C8C5F = {
+			isa = PBXGroup;
+			children = (
+				E04841151C5E574E008BDEFD /* Vendors */,
+				E00629131C586F9D007C8C5F /* 管练教师 */,
+				E006292D1C586F9D007C8C5F /* 管练教师Tests */,
+				E00629381C586F9D007C8C5F /* 管练教师UITests */,
+				E00629121C586F9D007C8C5F /* Products */,
+				18039CD8627DAF59F241067B /* Pods */,
+				C475221052E1345A50A77E2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E00629121C586F9D007C8C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00629111C586F9D007C8C5F /* 管练教师.app */,
+				E006292A1C586F9D007C8C5F /* 管练教师Tests.xctest */,
+				E00629351C586F9D007C8C5F /* 管练教师UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00629131C586F9D007C8C5F /* 管练教师 */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9A6491C59EB93003039EA /* 学习详情 */,
+				E0705CD01C5894EA00815217 /* 今日课表 */,
+				E0705CCF1C5894DF00815217 /* 本周课表 */,
+				E0705CCE1C5894D300815217 /* 评分 */,
+				E00629471C587183007C8C5F /* root */,
+				E00629171C586F9D007C8C5F /* AppDelegate.h */,
+				E00629181C586F9D007C8C5F /* AppDelegate.m */,
+				E00629201C586F9D007C8C5F /* Assets.xcassets */,
+				E00629251C586F9D007C8C5F /* Info.plist */,
+				E00629141C586F9D007C8C5F /* Supporting Files */,
+			);
+			path = "管练教师";
+			sourceTree = "<group>";
+		};
+		E00629141C586F9D007C8C5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00629151C586F9D007C8C5F /* main.m */,
+				E0705CD81C589E2600815217 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E006292D1C586F9D007C8C5F /* 管练教师Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E006292E1C586F9D007C8C5F /* ____Tests.m */,
+				E00629301C586F9D007C8C5F /* Info.plist */,
+			);
+			path = "管练教师Tests";
+			sourceTree = "<group>";
+		};
+		E00629381C586F9D007C8C5F /* 管练教师UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E00629391C586F9D007C8C5F /* ____UITests.m */,
+				E006293B1C586F9D007C8C5F /* Info.plist */,
+			);
+			path = "管练教师UITests";
+			sourceTree = "<group>";
+		};
+		E00629471C587183007C8C5F /* root */ = {
+			isa = PBXGroup;
+			children = (
+				E00629481C5871EE007C8C5F /* HJRootViewController.h */,
+				E00629491C5871EE007C8C5F /* HJRootViewController.m */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		E04841151C5E574E008BDEFD /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				E04841161C5E574E008BDEFD /* PNLineChart */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		E04841161C5E574E008BDEFD /* PNLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				E04841171C5E574E008BDEFD /* PNLineChartView.h */,
+				E04841181C5E574E008BDEFD /* PNLineChartView.m */,
+				E04841191C5E574E008BDEFD /* PNPlot.h */,
+				E048411A1C5E574E008BDEFD /* PNPlot.m */,
+			);
+			path = PNLineChart;
+			sourceTree = "<group>";
+		};
+		E0705CCE1C5894D300815217 /* 评分 */ = {
+			isa = PBXGroup;
+			children = (
+				E048411D1C5E57A6008BDEFD /* HJChartCollectionViewCell.h */,
+				E048411E1C5E57A6008BDEFD /* HJChartCollectionViewCell.m */,
+				E0203CC61C59D50F00BB2FD8 /* CWStarRateView.h */,
+				E0203CC71C59D50F00BB2FD8 /* CWStarRateView.m */,
+				E071B25D1C59B74C007125A3 /* HJWorkMarkViewController.h */,
+				E071B25E1C59B74C007125A3 /* HJWorkMarkViewController.m */,
+				E04841121C5E5656008BDEFD /* HJMasterMarkViewController.h */,
+				E04841131C5E5656008BDEFD /* HJMasterMarkViewController.m */,
+			);
+			path = "评分";
+			sourceTree = "<group>";
+		};
+		E0705CCF1C5894DF00815217 /* 本周课表 */ = {
+			isa = PBXGroup;
+			children = (
+				E0705CD41C589B2400815217 /* cell */,
+				E0705CD11C58952100815217 /* HJWeekViewController.h */,
+				E0705CD21C58952100815217 /* HJWeekViewController.m */,
+			);
+			path = "本周课表";
+			sourceTree = "<group>";
+		};
+		E0705CD01C5894EA00815217 /* 今日课表 */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAB1541C59013500A41314 /* HJDayViewController.h */,
+				E0BAB1551C59013500A41314 /* HJDayViewController.m */,
+			);
+			path = "今日课表";
+			sourceTree = "<group>";
+		};
+		E0705CD41C589B2400815217 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E0705CD51C589B3F00815217 /* HJWeekTopCollectionViewCell.h */,
+				E0705CD61C589B3F00815217 /* HJWeekTopCollectionViewCell.m */,
+				E099A6881C58C0BE00A632F1 /* HJWeekVerticalCollectionViewCell.h */,
+				E099A6891C58C0BE00A632F1 /* HJWeekVerticalCollectionViewCell.m */,
+				E099A68B1C58C83A00A632F1 /* HJWeekContentCollectionViewCell.h */,
+				E099A68C1C58C83A00A632F1 /* HJWeekContentCollectionViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		E0C9A6491C59EB93003039EA /* 学习详情 */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9A64A1C59EBA8003039EA /* HJStudyInfoViewController.h */,
+				E0C9A64B1C59EBA8003039EA /* HJStudyInfoViewController.m */,
+			);
+			path = "学习详情";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00629101C586F9D007C8C5F /* 管练教师 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E006293E1C586F9D007C8C5F /* Build configuration list for PBXNativeTarget "管练教师" */;
+			buildPhases = (
+				FBD3C3CB0433A86DBD39D6BA /* Check Pods Manifest.lock */,
+				E006290D1C586F9D007C8C5F /* Sources */,
+				E006290E1C586F9D007C8C5F /* Frameworks */,
+				E006290F1C586F9D007C8C5F /* Resources */,
+				87B4F75FD834D2681C447A96 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "管练教师";
+			productName = "管练教师";
+			productReference = E00629111C586F9D007C8C5F /* 管练教师.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00629291C586F9D007C8C5F /* 管练教师Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00629411C586F9D007C8C5F /* Build configuration list for PBXNativeTarget "管练教师Tests" */;
+			buildPhases = (
+				E00629261C586F9D007C8C5F /* Sources */,
+				E00629271C586F9D007C8C5F /* Frameworks */,
+				E00629281C586F9D007C8C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E006292C1C586F9D007C8C5F /* PBXTargetDependency */,
+			);
+			name = "管练教师Tests";
+			productName = "管练教师Tests";
+			productReference = E006292A1C586F9D007C8C5F /* 管练教师Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E00629341C586F9D007C8C5F /* 管练教师UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00629441C586F9D007C8C5F /* Build configuration list for PBXNativeTarget "管练教师UITests" */;
+			buildPhases = (
+				E00629311C586F9D007C8C5F /* Sources */,
+				E00629321C586F9D007C8C5F /* Frameworks */,
+				E00629331C586F9D007C8C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00629371C586F9D007C8C5F /* PBXTargetDependency */,
+			);
+			name = "管练教师UITests";
+			productName = "管练教师UITests";
+			productReference = E00629351C586F9D007C8C5F /* 管练教师UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00629091C586F9D007C8C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.hjojo;
+				TargetAttributes = {
+					E00629101C586F9D007C8C5F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G7E8MMZY9H;
+					};
+					E00629291C586F9D007C8C5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E00629101C586F9D007C8C5F;
+					};
+					E00629341C586F9D007C8C5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E00629101C586F9D007C8C5F;
+					};
+				};
+			};
+			buildConfigurationList = E006290C1C586F9D007C8C5F /* Build configuration list for PBXProject "管练教师" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00629081C586F9D007C8C5F;
+			productRefGroup = E00629121C586F9D007C8C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00629101C586F9D007C8C5F /* 管练教师 */,
+				E00629291C586F9D007C8C5F /* 管练教师Tests */,
+				E00629341C586F9D007C8C5F /* 管练教师UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E006290F1C586F9D007C8C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00629211C586F9D007C8C5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00629281C586F9D007C8C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00629331C586F9D007C8C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87B4F75FD834D2681C447A96 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD3C3CB0433A86DBD39D6BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E006290D1C586F9D007C8C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0705CD71C589B3F00815217 /* HJWeekTopCollectionViewCell.m in Sources */,
+				E099A68D1C58C83A00A632F1 /* HJWeekContentCollectionViewCell.m in Sources */,
+				E006294A1C5871EE007C8C5F /* HJRootViewController.m in Sources */,
+				E04841141C5E5656008BDEFD /* HJMasterMarkViewController.m in Sources */,
+				E099A68A1C58C0BE00A632F1 /* HJWeekVerticalCollectionViewCell.m in Sources */,
+				E00629191C586F9D007C8C5F /* AppDelegate.m in Sources */,
+				E0705CD31C58952100815217 /* HJWeekViewController.m in Sources */,
+				E0203CC81C59D50F00BB2FD8 /* CWStarRateView.m in Sources */,
+				E00629161C586F9D007C8C5F /* main.m in Sources */,
+				E0BAB1561C59013500A41314 /* HJDayViewController.m in Sources */,
+				E071B25F1C59B74C007125A3 /* HJWorkMarkViewController.m in Sources */,
+				E0C9A64C1C59EBA8003039EA /* HJStudyInfoViewController.m in Sources */,
+				E048411C1C5E574E008BDEFD /* PNPlot.m in Sources */,
+				E048411B1C5E574E008BDEFD /* PNLineChartView.m in Sources */,
+				E048411F1C5E57A6008BDEFD /* HJChartCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00629261C586F9D007C8C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E006292F1C586F9D007C8C5F /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00629311C586F9D007C8C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E006293A1C586F9D007C8C5F /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E006292C1C586F9D007C8C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00629101C586F9D007C8C5F /* 管练教师 */;
+			targetProxy = E006292B1C586F9D007C8C5F /* PBXContainerItemProxy */;
+		};
+		E00629371C586F9D007C8C5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00629101C586F9D007C8C5F /* 管练教师 */;
+			targetProxy = E00629361C586F9D007C8C5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E006293C1C586F9D007C8C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E006293D1C586F9D007C8C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E006293F1C586F9D007C8C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EEAFD373FC13F3ABF3AE5C5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "管练教师/PrefixHeader.pch";
+				INFOPLIST_FILE = "管练教师/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjojo.guanlian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E00629401C586F9D007C8C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C456F72D5BAFE1316FD0609E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "管练教师/PrefixHeader.pch";
+				INFOPLIST_FILE = "管练教师/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjojo.guanlian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E00629421C586F9D007C8C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "管练教师Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hjojo.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/管练教师.app/管练教师";
+			};
+			name = Debug;
+		};
+		E00629431C586F9D007C8C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "管练教师Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hjojo.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/管练教师.app/管练教师";
+			};
+			name = Release;
+		};
+		E00629451C586F9D007C8C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "管练教师UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hjojo.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "管练教师";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E00629461C586F9D007C8C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "管练教师UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hjojo.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "管练教师";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E006290C1C586F9D007C8C5F /* Build configuration list for PBXProject "管练教师" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E006293C1C586F9D007C8C5F /* Debug */,
+				E006293D1C586F9D007C8C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E006293E1C586F9D007C8C5F /* Build configuration list for PBXNativeTarget "管练教师" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E006293F1C586F9D007C8C5F /* Debug */,
+				E00629401C586F9D007C8C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00629411C586F9D007C8C5F /* Build configuration list for PBXNativeTarget "管练教师Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00629421C586F9D007C8C5F /* Debug */,
+				E00629431C586F9D007C8C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00629441C586F9D007C8C5F /* Build configuration list for PBXNativeTarget "管练教师UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00629451C586F9D007C8C5F /* Debug */,
+				E00629461C586F9D007C8C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00629091C586F9D007C8C5F /* Project object */;
+}
